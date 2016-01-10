@@ -1,0 +1,4 @@
+---
+
+base::user: "ubuntu"
+base::project_dir: "/home/ubuntu"

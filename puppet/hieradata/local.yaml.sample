@@ -1,0 +1,6 @@
+# vim: syntax=yaml
+---
+
+git::user_name: 'xxx'
+git::user_email: 'xxx'
+git::github_oauth: 'xxx'

@@ -1,0 +1,8 @@
+---
+:hierarchy:
+  - local
+  - virtual
+  - common
+
+:yaml:
+  :datadir: "puppet/hieradata"

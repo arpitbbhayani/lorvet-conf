@@ -1,0 +1,12 @@
+*local.yaml
+*~
+*.py[co]
+/.vagrant
+/.rbenv-version
+/no-update
+/Vagrantfile-extra.rb
+/logs
+!/logs/puppet/.gitignore
+puppet/.tmp/
+puppet/.librarian/
+puppet/vendor/
