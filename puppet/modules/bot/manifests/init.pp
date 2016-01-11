@@ -6,6 +6,8 @@ class bot (
     directory => $repo_root,
   }
 
+  ensure_packages(['supervisor'])
+
   python::virtualenv { "${repo_root}/venv":
     requirements => "${repo_root}/requirements.txt",
     owner        => $user,

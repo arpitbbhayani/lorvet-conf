@@ -3,8 +3,8 @@ class system ($user,$project_dir) {
 
   class { 'python':
     version    => 'system',
-    dev        => true,
-    pip        => true,
-    virtualenv => true,
+    dev        => 'present',
+    pip        => 'present',
+    virtualenv => 'present',
   }
 }

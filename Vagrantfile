@@ -67,7 +67,6 @@ Vagrant.configure('2') do |config|
     puppet.working_directory = "/vagrant"
     puppet.options = [
       '--verbose',
-      '--debug',
       '--logdest', "/vagrant/logs/puppet/puppet.log",
       '--logdest', 'console',
       '--hiera_config', '/vagrant/hiera.yaml',
