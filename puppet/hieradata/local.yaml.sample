@@ -4,3 +4,10 @@
 git::user_name: 'xxx'
 git::user_email: 'xxx'
 git::github_oauth: 'xxx'
+
+bot::bot_token = 'xxx',
+bot::bot_id = 'xxx',
+bot::consumer_key = 'xxx',
+bot::consumer_secret = 'xxx',
+bot::access_token = 'xxx',
+bot::access_secret = 'xxx',

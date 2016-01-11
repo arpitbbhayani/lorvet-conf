@@ -1,0 +1,11 @@
+[program:lorvet-bot]
+directory=<%= @repo_root %>
+command=<%= @repo_root %>/venv/bin/python <%= @repo_root %>/run.py --config <%= @repo_root %>/config.ini
+process_name=%(process_num)s%(program_name)s
+numprocs=1
+autostart=true
+autorestart=false
+stdout_logfile=/var/log/lorvet-bot.log
+redirect_stderr=true
+environment=PYTHONPATH=<%= @repo_root %>
+user=<%= @user %>
