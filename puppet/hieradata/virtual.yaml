@@ -1,4 +1,4 @@
 ---
 
-base::user: "vagrant"
-base::project_dir: "/home/vagrant"
+system::user: "vagrant"
+system::project_dir: "/home/vagrant"

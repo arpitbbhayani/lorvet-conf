@@ -6,7 +6,7 @@ ROOT_DIR=$( dirname "$( cd "$( dirname "${BASH_SOURCE[0]}")" && pwd)" );
 PUPPET_DIR=$ROOT_DIR/puppet
 
 # NB: librarian-puppet might need git installed. If it is not already installed
-# in your basebox, this will manually install it at this point using apt or yum
+# in your systembox, this will manually install it at this point using apt or yum
 
 $(which apt-get > /dev/null 2>&1)
 FOUND_APT=$?

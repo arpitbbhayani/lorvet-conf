@@ -4,7 +4,14 @@ FORGE
     puppetlabs-apt (2.2.1)
       puppetlabs-stdlib (< 5.0.0, >= 4.5.0)
     puppetlabs-stdlib (4.10.0)
+    stahnma-epel (1.2.2)
+      puppetlabs-stdlib (>= 3.0.0)
+    stankevich-python (1.10.0)
+      puppetlabs-stdlib (< 6.0.0, >= 4.6.0)
+      stahnma-epel (< 2.0.0, >= 1.0.1)
 
 DEPENDENCIES
   puppetlabs-apt (>= 0)
+  puppetlabs-stdlib (>= 0)
+  stankevich-python (>= 0)
 

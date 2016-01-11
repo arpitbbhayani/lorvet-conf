@@ -1,4 +1,5 @@
 Exec { path => [ '/bin/', '/sbin/', '/usr/local/bin/', '/usr/bin/', '/usr/sbin/' ] }
 
-include base
+include system
 include git
+include bot
