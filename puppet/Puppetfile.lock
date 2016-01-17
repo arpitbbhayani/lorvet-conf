@@ -1,8 +1,12 @@
 FORGE
   remote: https://forgeapi.puppetlabs.com
   specs:
+    nanliu-staging (1.0.3)
     puppetlabs-apt (2.2.1)
       puppetlabs-stdlib (< 5.0.0, >= 4.5.0)
+    puppetlabs-mysql (3.6.2)
+      nanliu-staging (< 2.0.0, >= 1.0.1)
+      puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
     puppetlabs-stdlib (4.10.0)
     stahnma-epel (1.2.2)
       puppetlabs-stdlib (>= 3.0.0)
@@ -12,6 +16,7 @@ FORGE
 
 DEPENDENCIES
   puppetlabs-apt (>= 0)
+  puppetlabs-mysql (>= 0)
   puppetlabs-stdlib (>= 0)
   stankevich-python (>= 0)
 
